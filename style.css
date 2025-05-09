@@ -1,0 +1,47 @@
+body{
+    /* Mettre une taille sur le body afin de pouvoir centrer l'horloge */
+    margin: 0;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.ecran {
+    width: 250px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+   
+
+ 
+
+    
+}
+.heure {
+    width: 80%;
+    height: 40%;
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-shadow: 0 0 5px #00ddff, 0 0 10px #00c8ff;
+}
+
+    
+
+.date {
+    width: 80%;
+    height: 40%;
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:azure
+}
